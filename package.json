@@ -1,0 +1,17 @@
+{
+  "name": "demoAPIsServer",
+  "version": "1.0.0",
+  "description": "Dummy APIs for fake data",
+  "main": "generator.js",
+  "scripts": {
+    "start": "json-server generator.js -p 3017",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rakesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.11.2",
+    "lodash": "^4.17.4"
+  }
+}
