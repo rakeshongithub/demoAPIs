@@ -4,7 +4,7 @@
   "description": "Dummy APIs for fake data",
   "main": "generator.js",
   "scripts": {
-    "start": "json-server generator.js -p 3017",
+    "start": "json-server reports.js -p 3017",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rakesh Kumar",
