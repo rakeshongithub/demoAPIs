@@ -12,8 +12,7 @@ module.exports = function () {
         "memberAliases": [ "FRMA", "FRMA1", "FRMA:U01", "FRMA:U02" ],
         "userReports": _.times(10, function(n) {
           return {
-            "beginDate": faker.date.between((2010 + n), (2011 + n)),
-        		"endDate": 99991231,
+            "date": faker.date.between((2010 + n), (2011 + n)),
         		"companyName": "The Absolute Best Company Description",
             "reports": faker.lorem.paragraph()
           }
